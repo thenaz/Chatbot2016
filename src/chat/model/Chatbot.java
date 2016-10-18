@@ -38,6 +38,13 @@ public class Chatbot
 	 */
 	public boolean lengthChecker(String currentInput)
 	{
+		boolean hasLength = false;
+		
+		if (currentInput !=  null && !currentInput.equals(""))
+		{
+			hasLength = true;
+		}
+		
 		return false;
 	}
 
